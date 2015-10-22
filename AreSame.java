@@ -2,7 +2,7 @@ import java.util.*;
 
 public class AreSame {
 	
-	public static boolean comp(int[] a, int[] b) {
+  public static boolean comp(int[] a, int[] b) {
     if(a.length != b.length)
       return false;
     LinkedList<Integer> listB = new LinkedList<>(Arrays.asList(b));
